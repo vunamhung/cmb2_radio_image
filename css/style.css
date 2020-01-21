@@ -1,5 +1,6 @@
 .cmb-type-radio-image .cmb2-radio-list {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     clear: both;
     overflow: hidden;
 }
@@ -11,11 +12,14 @@
 .cmb-type-radio-image .cmb2-radio-list li {
     display: inline-block;
     margin-bottom: 0;
+    margin-right: 10px;
+    max-width: 50px;
 }
 
 .cmb-type-radio-image .cmb2-radio-list input[type='radio'] + label {
     display: block;
     border: 3px solid #eee;
+    padding: 5px;
 }
 
 .cmb-type-radio-image .cmb2-radio-list input[type='radio'] + label:hover,
@@ -25,4 +29,5 @@
 
 .cmb-type-radio-image .cmb2-radio-list li label img {
     display: block;
+    max-width: 100%;
 }
