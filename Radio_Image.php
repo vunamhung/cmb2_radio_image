@@ -10,7 +10,7 @@ class Radio_Image {
 	}
 
 	public function enqueue() {
-		wp_enqueue_style('cmb-tabs', $this->dir_url('css/style.css'), [], '1.0.0');
+		wp_enqueue_style('cmb-radio-image', $this->dir_url('css/style.css'), [], '1.0.0');
 	}
 
 	public function callback($field, $escaped_value, $object_id, $object_type, $field_type_object) {
