@@ -1,6 +1,6 @@
 <?php
 
-namespace vunamhung\cmb2;
+namespace vnh\cmb2;
 
 class Radio_Image {
 	public function __construct() {
@@ -26,6 +26,7 @@ class Radio_Image {
 				}
 			}
 		}
+
 		return $args;
 	}
 
